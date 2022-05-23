@@ -18,9 +18,9 @@
 </head>
 
 <body>
-    <input type="text" id="msgSend">
-    <button onclick="send(document.getElementById('msgSend'))">Send</button>
-
+    <input type="text" id="msgInput">
+    <button onclick="sendMsg(document.getElementById('msgInput').value)">Send</button>
+    <p id="chat"></p>
 </body>
 
 </html>
